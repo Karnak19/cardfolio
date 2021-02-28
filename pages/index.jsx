@@ -49,7 +49,7 @@ export default function Home() {
         </div>
 
         <div className="w-full lg:w-5/12">
-          <img src="/images/portrait-height.jpg" className="rounded-none lg:rounded-lg shadow-2xl hidden lg:block" />
+          <img src="/images/portrait-height.webp" className="rounded-none lg:rounded-lg shadow-2xl hidden lg:block" />
         </div>
       </div>
     </>
