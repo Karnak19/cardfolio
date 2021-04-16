@@ -19,7 +19,7 @@ body {
 }
 
 .blue-button {
-  @apply bg-blue-800 border-blue-700 border py-2 px-3 rounded-md hover:border-blue-500 hover:bg-blue-600 font-bold;
+  @apply bg-blue-800 border-blue-700 border py-2 px-3 rounded-md hover:border-blue-500 hover:bg-blue-600 font-semibold;
 }
 
 .content {
@@ -27,7 +27,7 @@ body {
 }
 
 .subtitle {
-  @apply text-base font-bold flex items-center justify-center lg:justify-start;
+  @apply text-base font-semibold flex items-center justify-center lg:justify-start;
 }
 
 .image-wrapper {
