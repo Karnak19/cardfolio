@@ -14,7 +14,7 @@ export default function Home() {
       </Head>
 
       <div className="content">
-        <div className="card-content backdrop-filter backdrop-blur-md">
+        <div className="card-content backdrop-filter backdrop-blur-sm">
           <div className="p-4 md:p-12 text-center lg:text-left">
             <div className="image-wrapper">
               <img src="/images/portrait-small.webp" alt="" className="rounded-full shadow-xl" />
@@ -42,19 +42,18 @@ export default function Home() {
                   clipRule="evenodd"
                 />
               </svg>
-              Biarritz, France
+              Bayonne, France
             </p>
             <p className="pt-8 text-sm">
-              Passionate by code, I used to be a javascript instructor, transmitting my passion for
-              code to my students. 💛
+            Ceci est un test 1
             </p>
             <p className="pt-4 text-sm">
-              I love trying new stuffs, libraries, frameworks in the JS/TS ecosystem !
+              Ceci est un test 2
             </p>
             <p className="pt-6 text-sm">I also love custom keyboards !</p>
             <div className="pt-8 pb-6">
               <a
-                href="mailto:basile.vernouillet@gmail.com"
+                href="mailto:eliott.vernouillet64@gmail.com"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="blue-button group shadow-xl"

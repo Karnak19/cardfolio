@@ -12,7 +12,7 @@ class MyDocument extends Document {
         <Head></Head>
         <body
           style={{
-            backgroundImage: "url('/images/bg.svg')",
+            backgroundImage: "url('/images/re.jpg')",
             backgroundPosition: 'center',
             backgroundAttachment: 'fixed',
             backgroundSize: 'cover',
