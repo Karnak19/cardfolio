@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Basile Vernouillet</title>
+        <title>Eliott Vernouillet</title>
         <meta name="description" content="Développeur, Formateur, React & NodeJS" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       </Head>
@@ -19,15 +19,15 @@ export default function Home() {
             <div className="image-wrapper">
               <img src="/images/portrait-small.webp" alt="" className="rounded-full shadow-xl" />
             </div>
-            <h1 className="text-3xl font-bold pt-8 lg:pt-0">Basile Vernouillet</h1>
+            <h1 className="text-3xl font-bold pt-8 lg:pt-0">Eliott Vernouillet</h1>
             <div className="separator"></div>
             <h2 className="pt-4 subtitle">
               <BagSvg />
-              Lead Developer
+              Computer Technician
             </h2>
             <h3 className="subtitle">
               <BuildingSvg />
-              Pytheas Capital Advisor
+              Voltaire Group
             </h3>
             <p className="pt-2 text-blue-200 text-xs lg:text-sm flex items-center justify-center lg:justify-start">
               <svg
