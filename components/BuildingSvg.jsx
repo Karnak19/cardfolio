@@ -1,7 +1,7 @@
 function BuildingSvg() {
   return (
     <svg
-      className="h-4 fill-current text-blue-700 pr-4"
+      className="h-4 fill-current text-blue-300 pr-4"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 20 20"
       fill="currentColor"

@@ -26,9 +26,10 @@ class MyDocument extends Document {
         </Head>
         <body
           style={{
-            backgroundImage: "url('/images/bg.webp')",
+            backgroundImage: "url('/images/bg.svg')",
             backgroundPosition: 'center',
             backgroundAttachment: 'fixed',
+            backgroundSize: 'cover',
           }}
         >
           <Main />
