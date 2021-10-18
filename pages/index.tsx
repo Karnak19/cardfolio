@@ -23,11 +23,11 @@ export default function Home() {
             <div className="separator"></div>
             <h2 className="pt-4 subtitle">
               <BagSvg />
-              Lead Developer
+              Frontend Developer
             </h2>
             <h3 className="subtitle">
               <BuildingSvg />
-              Pytheas Capital Advisor
+              Origins Digital
             </h3>
             <p className="pt-2 text-blue-200 text-xs lg:text-sm flex items-center justify-center lg:justify-start">
               <svg
