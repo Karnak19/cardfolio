@@ -10,19 +10,12 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <script async src={`https://www.googletagmanager.com/gtag/js?id=G-HC7W9WGC9G`} />
           <script
-            dangerouslySetInnerHTML={{
-              __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-HC7W9WGC9G', {
-              page_path: window.location.pathname,
-            });
-          `,
-            }}
-          />
+            async
+            src="https://analytics.basile.vernouillet.dev/tracker.js"
+            data-ackee-server="https://analytics.basile.vernouillet.dev"
+            data-ackee-domain-id="a8e3cfd6-429f-45a1-b14a-1b3a7a2faf47"
+          ></script>
         </Head>
         <body
           style={{
