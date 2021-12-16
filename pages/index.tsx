@@ -15,11 +15,17 @@ export default function Home() {
 
       <div className="content">
         <div className="card-content backdrop-filter backdrop-blur-md">
-          <div className="p-4 md:p-12 text-center lg:text-left">
+          <div className="p-4 text-center md:p-12 lg:text-left">
             <div className="image-wrapper">
-              <img src="/images/portrait-small.webp" alt="" className="rounded-full shadow-xl" />
+              <img
+                src="/images/portrait-small.webp"
+                alt=""
+                height="192"
+                width="192"
+                className="rounded-full shadow-xl"
+              />
             </div>
-            <h1 className="text-3xl font-bold pt-8 lg:pt-0">Basile Vernouillet</h1>
+            <h1 className="pt-8 text-3xl font-bold lg:pt-0">Basile Vernouillet</h1>
             <div className="separator"></div>
             <h2 className="pt-4 subtitle">
               <BagSvg />
@@ -29,9 +35,9 @@ export default function Home() {
               <BuildingSvg />
               Origins Digital
             </h3>
-            <p className="pt-2 text-blue-200 text-xs lg:text-sm flex items-center justify-center lg:justify-start">
+            <p className="flex items-center justify-center pt-2 text-xs text-blue-200 lg:text-sm lg:justify-start">
               <svg
-                className="h-4 fill-current text-blue-300 pr-4"
+                className="h-4 pr-4 text-blue-300 fill-current"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
                 fill="currentColor"
@@ -57,11 +63,11 @@ export default function Home() {
                 href="mailto:basile.vernouillet@gmail.com"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="blue-button group shadow-xl"
+                className="shadow-xl blue-button group"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-5 mr-3 inline-block transform group-hover:rotate-90 group-hover:translate-x-30 transition duration-500"
+                  className="inline-block w-5 h-5 mr-3 transition duration-500 transform group-hover:rotate-90 group-hover:translate-x-30"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -80,10 +86,12 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="w-full lg:w-5/12 z-10">
+        <div className="z-10 w-full lg:w-5/12">
           <img
             src="/images/portrait-height.webp"
-            className="rounded-none lg:rounded-lg shadow-2xl hidden lg:block"
+            height="617"
+            width="373"
+            className="hidden rounded-none shadow-2xl lg:rounded-lg lg:block"
           />
         </div>
       </div>
