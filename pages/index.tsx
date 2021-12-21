@@ -19,7 +19,7 @@ export default function Home() {
             <div className="image-wrapper">
               <img
                 src="/images/portrait-small.webp"
-                alt=""
+                alt="Basile Vernouillet"
                 height="192"
                 width="192"
                 className="rounded-full shadow-xl"
@@ -91,6 +91,7 @@ export default function Home() {
             src="/images/portrait-height.webp"
             height="617"
             width="373"
+            alt="Basile Vernouillet"
             className="hidden rounded-none shadow-2xl lg:rounded-lg lg:block"
           />
         </div>
