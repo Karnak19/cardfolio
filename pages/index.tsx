@@ -27,7 +27,7 @@ export default function Home() {
             </h2>
             <h3 className="subtitle">
               <BuildingSvg />
-              Voltaire Group
+
             </h3>
             <p className="pt-2 text-blue-200 text-xs lg:text-sm flex items-center justify-center lg:justify-start">
               <svg
@@ -45,10 +45,10 @@ export default function Home() {
               Bayonne, France
             </p>
             <p className="pt-8 text-sm">
-            Ceci est un test 1
+            Ceci est un test 4
             </p>
             <p className="pt-4 text-sm">
-              Ceci est un test 2
+              Ceci est un test 3
             </p>
             <p className="pt-6 text-sm">I also love custom keyboards !</p>
             <div className="pt-8 pb-6">
