@@ -25,10 +25,6 @@ export default function Home() {
               <BagSvg />
               Computer Technician
             </h2>
-            <h3 className="subtitle">
-              <BuildingSvg />
-
-            </h3>
             <p className="pt-2 text-blue-200 text-xs lg:text-sm flex items-center justify-center lg:justify-start">
               <svg
                 className="h-4 fill-current text-blue-300 pr-4"
@@ -45,7 +41,7 @@ export default function Home() {
               Bayonne, France
             </p>
             <p className="pt-8 text-sm">
-            Ceci est un test 4
+            Linux & networking enthusiast
             </p>
             <p className="pt-4 text-sm">
               Ceci est un test 3
