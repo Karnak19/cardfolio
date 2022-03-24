@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <Head>
         <title>Eliott Vernouillet</title>
-        <meta name="description" content="Développeur, Formateur, React & NodeJS" />
+        <meta name="description" content="Computer Technician" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       </Head>
 
@@ -44,7 +44,7 @@ export default function Home() {
             Linux & networking enthusiast
             </p>
             <p className="pt-4 text-sm">
-              Ceci est un test 3
+              I am currently looking for a job as a technician, feel free to send me an email if interested!
             </p>
             <p className="pt-6 text-sm">I also love custom keyboards !</p>
             <div className="pt-8 pb-6">
